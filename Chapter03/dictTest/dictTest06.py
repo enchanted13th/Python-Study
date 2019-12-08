@@ -5,17 +5,17 @@ pythons = {
     'Idle' : 'Eric',
     'Jones' : 'Terry',
     'Palin' : 'Michael',
+    'Marx' : 'Groucho',
+    'Howard' : 'Moe',
 }
 
 print(pythons)
 
-others = { 'Marx' : 'Groucho', 'Howard' : 'Moe'}
-pythons.update(others)
+del pythons['Marx']
+del pythons['Howard']
 
 print(pythons)
 
-first = { 'a' : 1, 'b' : 2 }
-second = { 'b' : 'platypus'}
-first.update(second)
+pythons.clear()
 
-print(first)
+print(pythons)
