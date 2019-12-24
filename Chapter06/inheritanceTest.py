@@ -9,3 +9,5 @@ give_me_a_car = Car()
 give_me_a_Yugo = Yugo()
 give_me_a_car.exclaim()
 give_me_a_Yugo.exclaim()
+
+Car.exclaim(give_me_a_car)
